@@ -1,0 +1,19 @@
+{
+	"files": {
+		"Readme.md": "147bce023c7340be5c3f545e5e3d87b9a2d4bfee1af10045c3cd7b72056735a2",
+		"index.js": "11c7db7ae51129a90ace8eb714330af1cc234d6eae50ad8532338a364cfe9007",
+		"module.json": "90489a4dc5dc0491b5befc189bdfa3ead0f72b119000ebcc22e684882e826805",
+		"settings_migrator.js": "d170c52ddca6e82f069c86a4dc41e6325bce37e55a6d67a3282d5d17085a910b",
+		"settings_structure.js": "051ab2dabc3b2585164db55f1db745432e8714a51109cff923cfcc7fb1ebc75e"
+	},
+	"defs": {
+		"C_RESET_ALL_DUNGEON": 1,
+		"S_BOSS_GAGE_INFO": 3,
+		"S_DESPAWN_DROPITEM": 4,
+		"S_INSTANT_MOVE": 3,
+		"S_LOAD_TOPO": 3,
+		"S_SPAWN_DROPITEM": 8,
+		"S_SPAWN_ME": 3,
+		"S_SPAWN_NPC": 11
+	}
+}
