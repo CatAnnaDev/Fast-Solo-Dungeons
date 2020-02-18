@@ -6,7 +6,7 @@ module.exports = function Solodungeon(mod) {
 	if (mod.proxyAuthor !== 'caali' || !global.TeraProxy)
 		mod.warn('You are trying to use this module on an unsupported version of tera-proxy. It may not work as expected, and even if it does now it may break at any point in the future.');
 
-    const blacklist = [9777, 9713, 9916];
+    const blacklist = [9713, 9916];
     const whitelist = [9031, 9032];
 
     let fastsolo = config.fastsolo,
@@ -32,10 +32,6 @@ module.exports = function Solodungeon(mod) {
     mod.hook('S_SPAWN_ME', 3, event => {
         if (!fastsolo) return;
         switch(zone) {
-            case 9777: // Channelworks
-                event.loc = new Vec3(-112670, -33091, 461)
-                event.w = 1.5
-                return true;
             case 9713: // Ghillie
                 event.loc = new Vec3(52233, 117319, 4382)
                 event.w = 1.5

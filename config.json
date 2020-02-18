@@ -1,11 +1,10 @@
 {
     "version": 1,
     "data": {
-        "fastsolo": true,
-        "autoreset": true,
-        "ghilliereset": true,
         "velikaredirect": true,
+        "ghilliereset": true,
         "boxredirect": true,
+        "fastsolo": true,
         "acereset": true
     }
 }

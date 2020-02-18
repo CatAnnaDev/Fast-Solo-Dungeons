@@ -6,7 +6,6 @@
 * Ghilieglade
 * Ace-Akasha
 * Ace-Baracos
-* Channelworks
 
 ---
 
