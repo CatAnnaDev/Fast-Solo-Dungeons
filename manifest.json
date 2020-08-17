@@ -7,7 +7,7 @@
 		"mod/mainmodule-1/index.js": "b1ce56136aaf532e9d5155e0e42ecb541099bc39c29ebe40f15bef18fa4e8f10",
 		"mod/mainmodule-1/config.json": "38f630a162ce21c67e2f9c8f31054b5182fb9f30df2b496413d7dd1e271177e3",
 		"mod/mainmodule-2/index.js": "8b55f6480138bbf125c9855f925d90dec4cbbb2e3f425a08704a587c4a5d7a65",
-		"mod/mainmodule-2/config.json": "325fd850e16f51448355ce82fce52bfc3f81a0812ae15808254b4a81d3a4106d",
+		"mod/mainmodule-2/config.json": "325fd850e16f51448355ce82fce52bfc3f81a0812ae15808254b4a81d3a4106d"
 	},
 	"defs": {
 		"C_RESET_ALL_DUNGEON": 1,
