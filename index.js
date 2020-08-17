@@ -3,9 +3,6 @@ const Vec3 = require('tera-vec3');
 
 module.exports = function Solodungeon(mod) {
 	
-	if (mod.proxyAuthor !== 'caali' || !global.TeraProxy)
-		mod.warn('You are trying to use this module on an unsupported version of tera-proxy. It may not work as expected, and even if it does now it may break at any point in the future.');
-	
     const blacklist = [9713];
     const whitelist = [9031, 9032];
 

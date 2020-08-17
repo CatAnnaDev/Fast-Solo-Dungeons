@@ -21,8 +21,3 @@
 ## Note
 * Autoreset after looting only works in ace dungeons.
 * Everything is enabled by default.
-
----
-
-## Author
-* Shalltearz Modified and updated by PsykoDev

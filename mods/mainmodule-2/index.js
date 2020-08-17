@@ -3,9 +3,6 @@ const Vec3 = require('tera-vec3');
 
 module.exports = function Velikaredirect(mod) {
 	
-	if (mod.proxyAuthor !== 'caali' || !global.TeraProxy)
-		mod.warn('You are trying to use this module on an unsupported version of tera-proxy. It may not work as expected, and even if it does now it may break at any point in the future.');	
-	
 	const chests = [81341, 81342],
 	chestloc = new Vec3(52562, 117921, 4431),
 	data = {
