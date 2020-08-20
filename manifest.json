@@ -1,10 +1,10 @@
 {
 	"files": {
-		"index.js": "85dad753ae22c3bb7dd1d1db218b8c52412417aec5d6bd7533e987e51ea398d1",
+		"index.js": "d2bd56265a40b839dc74d95f4bb0d06c6bf7a8dd7a7fcd6db5533d9af8c146a7",
 		"module.json": "90489a4dc5dc0491b5befc189bdfa3ead0f72b119000ebcc22e684882e826805",
 		"settings_migrator.js": "d170c52ddca6e82f069c86a4dc41e6325bce37e55a6d67a3282d5d17085a910b",
 		"settings_structure.js": "051ab2dabc3b2585164db55f1db745432e8714a51109cff923cfcc7fb1ebc75e",
-		"mods/mainmodule-1/index.js": "f574b64272ea11a2091d9bbf0bd26b9af87f35c38e762c91d3145bba86061a5a",
+		"mods/mainmodule-1/index.js": "11a00c67701f7b5e4b781f1388a3c016393355f7807cd4969792f3240da96b43",
 		"mods/mainmodule-1/config.json": "38f630a162ce21c67e2f9c8f31054b5182fb9f30df2b496413d7dd1e271177e3",
 		"mods/mainmodule-2/index.js": "8b55f6480138bbf125c9855f925d90dec4cbbb2e3f425a08704a587c4a5d7a65",
 		"mods/mainmodule-2/config.json": "325fd850e16f51448355ce82fce52bfc3f81a0812ae15808254b4a81d3a4106d"

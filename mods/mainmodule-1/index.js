@@ -42,7 +42,7 @@ module.exports = function Solodungeon(mod) {
                 event.w = 1.5
                 return true;
             case 3016: // Ace Lilitas kepp
-            event.loc = new Vec3(-99600, -58666, 8023)
+            event.loc = new Vec3(-99600, 58666, 8023)
             event.w = 1.55
                 return true;			
             default: return;
