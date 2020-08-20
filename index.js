@@ -4,7 +4,7 @@ const Vec3 = require('tera-vec3');
 module.exports = function Solodungeon(mod) {
 	
     const blacklist = [9713];
-    const whitelist = [9031, 9032];
+    const whitelist = [9031, 9032, 3016];
 
     let loot,
         zone;
@@ -46,6 +46,10 @@ module.exports = function Solodungeon(mod) {
             case 9032: // Ace Baracos
                 event.loc = new Vec3(28214, 178550, -1675)
                 event.w = 1.5
+                return true;
+            case 3016: // Ace Lilith	
+                event.loc = new Vec3(-99600, -58666, 8023)
+                event.w = 1.55
                 return true;			
             default: return;
         }
@@ -62,7 +66,7 @@ module.exports = function Solodungeon(mod) {
 
     function resetinstance() {
         if (!mod.settings.acereset) return;
-        if((zone == 9031 || zone == 9032|| zone == 3016) && whitelist.indexOf(zone) > -1)  mod.send('C_RESET_ALL_DUNGEON', 1, null);
+        if((zone == 9031 || zone == 9032 || zone == 3016) && whitelist.indexOf(zone) > -1)  mod.send('C_RESET_ALL_DUNGEON', 1, null);
     }
 
 	const data = {7005: {spawn: new Vec3(-481, 6301, 1956), redirect: new Vec3(-341, 8665, 2180), w: -0.96}};	

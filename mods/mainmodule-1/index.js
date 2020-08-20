@@ -4,7 +4,7 @@ const Vec3 = require('tera-vec3');
 module.exports = function Solodungeon(mod) {
 
     const blacklist = [9713];
-    const whitelist = [9031, 9032];
+    const whitelist = [9031, 9032, 3016];
 
     let fastsolo = config.fastsolo,
         acereset = config.acereset,
@@ -42,8 +42,8 @@ module.exports = function Solodungeon(mod) {
                 event.w = 1.5
                 return true;
             case 3016: // Ace Lilitas kepp
-                event.loc = new Vec3(-99889, 59995, 8023)
-                event.w = -1.3
+            event.loc = new Vec3(-99600, -58666, 8023)
+            event.w = 1.55
                 return true;			
             default: return;
         }
@@ -60,6 +60,6 @@ module.exports = function Solodungeon(mod) {
 
     function Resetinstance() {
         if (!acereset) return;
-        if((zone == 9031 || zone == 9032|| zone == 3016) && whitelist.indexOf(zone) > -1)  mod.send('C_RESET_ALL_DUNGEON', 1, null);
+        if((zone == 9031 || zone == 9032 || zone == 3016) && whitelist.indexOf(zone) > -1)  mod.send('C_RESET_ALL_DUNGEON', 1, null);
     }
 };
