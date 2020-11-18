@@ -55,7 +55,7 @@ module.exports = function Solodungeon(mod) {
         }
     });
 
-    mod.hook('S_SPAWN_DROPITEM', 8, event => {
+    mod.hook('S_SPAWN_DROPITEM', 9, event => {
         if(!(blacklist.indexOf(event.item) > -1)) loot[event.gameId.toString()] = 1;
     });
 
