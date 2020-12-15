@@ -129,7 +129,7 @@ module.exports = function Solodungeon(mod) {
 		return true;
 	});
 
-	mod.hook('S_SPAWN_NPC', 11, event => {
+	mod.hook('S_SPAWN_NPC', 12, event => {
 		if (!mod.settings.ghilliereset) return;
 		if (event.huntingZoneId == 713 && chests.includes(event.templateId)) {
 			reset = true;
