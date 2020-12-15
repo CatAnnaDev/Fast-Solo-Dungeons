@@ -1,9 +1,5 @@
 {
     "files": {
-        "config.json": {
-            "overwrite": false,
-            "config.json": "23106d52df02ef095ac0d879a3b9cfb4d4a20f005c90ce36a9c43303d894746d"
-		},
         "index.js": "87d3ef45bfbcf04baa27c3a6a2b9993bd402c4d15aa1d6375f4d56ef0a891c62",
         "mods/mainmodule-1/config.json": "38f630a162ce21c67e2f9c8f31054b5182fb9f30df2b496413d7dd1e271177e3",
         "mods/mainmodule-1/index.js": "11a00c67701f7b5e4b781f1388a3c016393355f7807cd4969792f3240da96b43",
